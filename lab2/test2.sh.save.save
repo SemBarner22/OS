@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#/var/log/Xorg.0.log > full.log  /home/sem/.local/share/xorg/Xorg.0.log 
+grep -E '.*/(' /home/sem/.local/share/xorg/Xorg.0.log >> full.log 
+#sed -i 's/(WW)/Warning/g' full.log
+

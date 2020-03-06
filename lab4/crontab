@@ -1,0 +1,4 @@
+*/1 test1.sh test2.sh test3.sh test1.sh test2.sh test3.sh test1.sh test2.sh test3.sh sun /home/sem/lab4/test1.sh -e
+*/1 crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh sun /home/sem/lab4/test1.sh -e
+*/1 crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh sun /home/sem/lab4/test1.sh -e
+*/1 crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh crontab test1.sh test2.sh test3.sh sun /home/sem/lab4/test1.sh -e

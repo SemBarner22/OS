@@ -1,0 +1,16 @@
+#!/bin/bash
+
+grep -r -o -h -I -s ACPI.* /var/log/* > error.log
+
+echo "bla bla bla test.sh bla" >> error.log
+
+while read -r TOKENS
+do
+	for i in $TOKENS
+	do
+		if [ -f $i ]
+   		then
+			echo $TOKENS
+   		fi
+	done
+done < error.log

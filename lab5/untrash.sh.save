@@ -1,0 +1,25 @@
+#!/bin/bash
+
+filename=$1
+#grep -o .*/$filename"[[:space:]]".*  ~/.trash/trash.log 
+
+IFS=$'\n' 
+for string in $(cat < ~/.trash/trash.log)  
+do
+
+#echo $string
+#{ read string;
+
+TO=$(echo $string | awk '{print $NF}') 
+FROM=$(echo $string | awk '{print $1}')
+FILENAME=$(echo $FROM | awk '{print $NF}') 
+
+if [ $filename == $FILENAME ]
+then
+	скры
+	read p;
+	echo $p;
+else
+	echo azazazaz
+fi
+done

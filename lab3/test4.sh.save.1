@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#cat /proc/3181/statm
+#| sort -nk2
+
+A="/proc/"
+C="/statm"
+ps -u | awk 'NR>1 {G="/proc/";G+=$2; G+="/statm"; print $G}' |
